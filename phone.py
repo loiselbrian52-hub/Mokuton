@@ -15,7 +15,7 @@ def banner():
 +--------------------------------+""")
 banner()
 
-number = input("\n\033[92mEnter a number \033[0m[\033[101m+62\033[0m] \033[0m: ")
+number = input("\n\033[92mEnter a number \033[0m[\033[101m+1\033[0m] \033[0m: ")
 parsing = parse(number)
 loc = geocoder.description_for_number(parsing,"id")
 isp = carrier.name_for_number(parsing,"id")
